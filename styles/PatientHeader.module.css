@@ -77,5 +77,53 @@
 .logoutBtn:hover {
   background-color: #c62828;
 }
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    align-items: flex-start;
+  }
 
+  .sideIcon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .userIcon {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .profileWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .profileCard {
+    right: 0;
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .userIcon {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+
+  .sideIcon {
+    font-size: 1.2rem;
+  }
+
+  .profileCard {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
 
